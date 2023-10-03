@@ -1,0 +1,98 @@
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+h3 * {
+    color: #BCA37F;
+}
+
+.lead {
+    font-family: 'Sacramento', cursive;
+}
+
+.color-background {
+    background-color: #EADBC8;
+}
+
+.profile {
+    padding-top: 100px;
+    text-align: center;
+}
+
+h2 * {
+    color:  #BCA37F;
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.intro {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.parent {
+    width: fit-content;
+    margin: 70px 10px 0 auto;
+    text-align: left;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 35px;
+    column-gap: 20px;
+    width: 100%;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.body-title {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.contact-me {
+    margin-top: 50px;
+}
+
+.contact-message {
+    margin: 30px auto 30px auto;
+}
+
+.bottom-container {
+    background-color: #BCA37F;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 50px;
+}
+
+div {
+    display: block;
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper{
+        grid-template-columns: none;
+    }
+
+    .typing img{
+        display: block;
+        margin: auto;
+    }
+
+    .chillies img{
+        display: block;
+        margin: auto;
+    }
+}
